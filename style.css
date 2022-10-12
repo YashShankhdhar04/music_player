@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 46px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0px 22px 0px 0px
+    ;
+    font-weight: lighter;
+    font-size: medium;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+.container
+{
+    min-height: 75vh;
+    /* background-color: black; */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 23px  auto ;
+    width: 70%;
+    border-radius: 12px;
+    padding: 14px;
+    display: flex;
+   background-image: url("bg.jpg");
+   background-repeat: no-repeat;
+   /* image-resolution: 100%; */
+   background-size: 100% 100%;
+
+
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black
+    ;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 6px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+width: 80vw;
+text-align: center;
+cursor: pointer;
+}
+/* .container songlist h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+
+.songitemcontainer
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.songitem{
+height: 55px;
+/* height: auto; */
+font-size: 20px;
+display: flex;
+background-color: white;
+width: 470px;
+
+color: black;
+margin: 12 px 0 ;
+
+border-radius: 20px;
+justify-content: space-between;
+align-items: center;
+padding: 0px 5px;
+margin: 3px ;
+}
+.songitem img{
+width: 43px;
+/* margin: 23px 0; */
+border-radius: 20px;
+}
+.songlistplay{
+    text-align: center;
+}
+ .timestamp{
+    margin: 0 10px;
+   
+ }
+ .timestamp i{
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+ }
+.time{
+    position: relative;
+    top: -6px;
+}
+
+ .songInfo
+ {
+    position: absolute;
+    left: 10vw;
+ }
+ .songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in ;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
